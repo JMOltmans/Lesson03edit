@@ -1,0 +1,25 @@
+/* color palette
+EEBA4C-yellow orange
+E3493B-red
+23B5AF-light blue
+A9DDD9-aqua island
+3A3A3C-blue tuna*/
+/* global style*/
+body {background: #EEBA4C
+}
+a {color: #E3493B;
+}
+a:hover {text-decoration: none
+}
+
+/* header and footer style*/
+header, footer {background: #3A3A3C
+}
+header h1, header h2 {color: #23B5AF
+}
+/* work experince*/
+.work {background: #A9DDD9
+}
+/* education style*/
+.education {background: #23B5AF
+}
