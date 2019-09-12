@@ -5,21 +5,60 @@ E3493B-red
 A9DDD9-aqua island
 3A3A3C-blue tuna*/
 /* global style*/
-body {background: #EEBA4C
+body{font-family: 'Open Sans', sans-serif;
+    margin: 20px auto;
+} 
+p, h3 {
+    text-align: center;
 }
+
+h1,h2 {
+    font-family: 'Caveat Brush', cursive;
+}
+h1 {
+  text-shadow: 2px 2px 4px #000000;
+}
+h1 {font-size: 80px;
+}
+h2 {
+  text-shadow: 2px 2px 4px #ffffff;
+}
+h2 {font-size: 40px;
+    margin-top: 0;
+}
+
 a {color: #E3493B;
 }
 a:hover {text-decoration: none
 }
-
-/* header and footer style*/
-header, footer {background: #3A3A3C
+.content wrap { 
+    max-width: 950px;
+    margin: auto;
+    padding: 50px;
 }
-header h1, header h2 {color: #23B5AF
+/* header and footer style*/
+header, footer {background: #eeba4c;
+}
+/*header*/
+.profile-img {
+    width: 300px;
+    border-radius: 50%;
+}
+header h1, header h2 {color: #23B5AF;
+    margin: 0;
+}
+header {text-align: center;
+}
+/* footer*/
+footer {text-align: center;
+}
+.contact info a {padding: 40px;
+    display: inline-block;
 }
 /* work experince*/
 .work {background: #A9DDD9
 }
 /* education style*/
 .education {background: #23B5AF
+}.margin {
 }
